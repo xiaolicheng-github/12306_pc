@@ -1,10 +1,22 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import { useEffect, useState } from 'react';
+import reactLogo from './assets/react.svg';
+import viteLogo from '/vite.svg';
+import './App.css';
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [count, setCount] = useState(0);
+
+  useEffect(() => {
+    // window?.api?.loginConf((data: any) => {
+    //   console.log('前置', data);
+    // });
+    // window?.api?.stationNameNew((data: any) => {
+    //   console.log('地址code', data);
+    // });
+    // window?.api?.leftTicketQuery((data: any) => {
+    //   console.log('查询', data);
+    // });
+  }, []);
 
   return (
     <>

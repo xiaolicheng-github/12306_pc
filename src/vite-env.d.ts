@@ -2,4 +2,5 @@
 
 interface Window {
   versions: any;
+  api: any;
 }

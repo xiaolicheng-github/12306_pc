@@ -1,0 +1,11 @@
+安装依赖
+pnpm i
+打包应用
+npm run build
+npm run make
+网页版dev
+npm run dev
+桌面版dev
+npm run start
+
+
